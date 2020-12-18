@@ -9,6 +9,7 @@
 #include "bmesensor.h"
 #include "display.h"
 #include "sds011read.h"
+#include "scd30sensor.h"
 #include "sdcard.h"
 
 extern Ticker cyclicTimer;

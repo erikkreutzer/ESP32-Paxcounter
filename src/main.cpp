@@ -376,6 +376,10 @@ void setup() {
     strcat_P(features, " SDS");
 #endif
 
+#if (HAS_SCD30)
+  scd30_init();
+#endif
+
 #if (VENDORFILTER)
   strcat_P(features, " FILTER");
 #endif

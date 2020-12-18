@@ -134,6 +134,10 @@ void doHousekeeping() {
   }
 #endif
 
+#if (HAS_SCD30)
+  scd30_getCO2();
+#endif // HAS_SCD30
+
 } // doHousekeeping()
 
 uint64_t uptime() { return _millis(); }

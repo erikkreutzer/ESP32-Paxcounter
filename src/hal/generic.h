@@ -55,6 +55,9 @@
 #define SDS_TX 19     // connect to RX on the SDS011
 #define SDS_RX 23     // connect to TX on the SDS011
 
+// SCD30 carbon dioxide sensor
+#define HAS_SCD30 1 // use SCD30
+
 // up to three user defined sensors (if connected)
 //#define HAS_SENSOR_1 1 // comment out if device has user defined sensor #1
 //#define HAS_SENSOR_2 1 // comment out if device has user defined sensor #2
